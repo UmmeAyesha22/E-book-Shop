@@ -1,0 +1,33 @@
+<div class="container-fluid text-center text-white p-3 mt-3"
+ style="background-color: #01579b;">
+
+<div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+        
+      <!--  Left Section -->
+        <div className="text-center md:text-left mb-4 md:mb-0">
+          <h2 className="text-xl font-semibold">E-Book Haven</h2>
+          <p className="text-sm text-gray-400">
+            Discover, read, and collect your favorite books in one place.
+          </p>
+        </div>
+
+        <!--  Social Media Icons  -->
+        <div className="flex space-x-4">
+          <a href="#" className="text-gray-400 hover:text-white">
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a href="#" className="text-gray-400 hover:text-white">
+            <i className="fab fa-twitter"></i>
+          </a>
+          <a href="#" className="text-gray-400 hover:text-white">
+            <i className="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+     <!--   Copyright  -->
+      <div className="text-center text-gray-500 text-sm mt-4">
+        &copy; All rights reserved.
+      </div>
+
+</div>

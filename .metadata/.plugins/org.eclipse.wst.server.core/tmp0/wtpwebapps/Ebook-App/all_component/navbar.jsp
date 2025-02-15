@@ -15,7 +15,7 @@
             font-weight: 500;
         }
         .navbar-dark .navbar-nav .nav-link:hover {
-            color: #ffcc00;
+            color: #01579b;
         }
         .header-bar {
             height: 10px;
@@ -24,11 +24,17 @@
     </style>
 </head>
 <body>
+
+<div class="container-fluid"
+style="height:10px; background-color:#01579b"
+>
+
+</div>
     <div class="header-bar"></div>
     
-    <div class="container-fluid p-3 bg-light shadow-sm">
-        <div class="row align-items-center">
-            <div class="col-md-3">
+    <div class="container-fluid p-3 bg-light ">
+        <div class="row ">
+            <div class="col-md-3 text-success">
                 <h3 class="text-primary mb-0">
                     <i class="fa-solid fa-book"></i> Ebooks
                 </h3>
@@ -54,15 +60,18 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Recent Books</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">New Books</a></li>
-                <li class="nav-item"><a class="nav-link " href="#">Old Books</a></li>
+               <!--  <li class="nav-item active"><a class="nav-link" href="#"><i class="fa-solid fa-house"></i>Home</a></li> -->
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-book-open"></i>Recent Books</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-book-open"></i>New Books</a></li>
+                <li class="nav-item"><a class="nav-link " href="#"><i class="fa-solid fa-book-open"></i>Old Books</a></li>
             </ul>
-            <div class="ml-3">
-                <button class="btn btn-light">Settings</button>
-                <button class="btn btn-light">Contact Us</button>
-            </div>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-light my-2 my-sm-0" type="submit">
+                <i class="fa-solid fa-gears"></i>Settings
+                </button>
+                <button class="btn btn-light my-2 my-sm-0 ml-1" type="submit">
+                <i class="fa-solid fa-square-phone"></i>Contact Us</button>
+            </form>
         </div>
     </nav>
 
